@@ -34,7 +34,7 @@ public class DirectoriosXML {
 				  Node nNode = nList.item(temp);
 
 				  if(nNode.getNodeType() == Node.ELEMENT_NODE) {
-				    org.w3c.dom.Element eElement = (Element) nNode;
+				    Element eElement = (Element) nNode;
 				    
 				   
 				    Path archivos = Paths.get(eElement.getAttribute("ruta1"));
